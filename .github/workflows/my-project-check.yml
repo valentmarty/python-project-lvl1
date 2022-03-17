@@ -1,0 +1,11 @@
+name: my-project-check
+on: push
+jobs:
+  # linter chek
+  make-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: flake8 check
+        run: make lint
+
+	
