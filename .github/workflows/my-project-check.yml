@@ -5,12 +5,13 @@ jobs:
   make-lint:
     runs-on: ubuntu-latest
     steps:
-      - name: flake8 check
       - uses: actions/checkout@v2
-        run: |
-          pip install poetry
-          make install
-          make lint
+      - uses: actions/setup-python@v2
+      - run:  pip install poetry 
+      - run: make install
+      - run: make lint
+          
+    
           
       
           
