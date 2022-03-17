@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: flake8 check
         run: 
-          pip install poetry
-          make lint
+          poetry run flake8 brain_games
+          
 
 	
