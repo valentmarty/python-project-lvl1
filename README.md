@@ -6,4 +6,4 @@
 ![Linter check](https://github.com/valentmarty/python-project-lvl1/workflows/my-project-check/badge.svg)
 
 Brain-even asciinema:
-https://asciinema.org/a/Q0sYfdm3tMBnaNDOw2wJw8zq8
+https://asciinema.org/a/6FZGyrm92SncE1hXcQdlejrIl
