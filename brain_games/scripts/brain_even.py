@@ -2,11 +2,11 @@
 
 import prompt
 import random
-from brain_games.games.brain_games_logic import welcome, name
+from brain_games.games.brain_games_logic import welcome
 
 
 def main():
-    welcome()
+    name = welcome()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     # Program
     i = 0
