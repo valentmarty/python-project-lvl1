@@ -7,3 +7,9 @@
 
 Brain-even asciinema:
 https://asciinema.org/a/6FZGyrm92SncE1hXcQdlejrIl
+
+Brain-even asciinema:
+https://asciinema.org/a/DsWCArZRW2m9l5LUVr8LetYby
+
+Brain-gcd asciinema:
+https://asciinema.org/a/lahswj4uZIQb6IE9oyfYJpDJ6
