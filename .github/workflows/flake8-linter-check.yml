@@ -1,4 +1,4 @@
-name: my-project-check
+name: flake8-linter-check
 on: push
 jobs:
   # linter chek. Before: checkout@v2, setup-python@v2, install poetry 
