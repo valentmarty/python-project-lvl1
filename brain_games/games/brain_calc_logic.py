@@ -11,7 +11,7 @@ def game_body():
     random_number_2 = random.randint(1, 100)
     operations = ['*', '+', '-']
     random_operation = random.choice(operations)
-    print('Question: ', random_number_1, random_operation, random_number_2)
+    print('Question:', random_number_1, random_operation, random_number_2)
     answer = prompt.string('Your answer: ')
     answer_for_comp = answer
     if random_operation == '+':

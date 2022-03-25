@@ -8,7 +8,7 @@ def game_condition():
 
 def game_body():
     random_number = random.randint(1, 100)
-    print('Question: ', random_number)
+    print('Question:', random_number)
     right_ans = random_number % 2
     mirror_ans = right_ans
     answer = prompt.string('Your answer: ')

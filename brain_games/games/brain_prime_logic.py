@@ -8,7 +8,7 @@ def game_condition():
 
 def game_body():
     random_number = random.randint(1, 100)
-    print('Question: ', random_number)
+    print('Question:', random_number)
     i = 2
     while i < random_number:
         if random_number % i != 0:
