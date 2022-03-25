@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-from brain_games.games.brain_gcd_logic import welcome, game_condition, game_body, answer_check, rounds_check, ROUNDS_MAX_NUMBER
+from brain_games.games.brain_games_logic import welcome
+from brain_games.games.brain_games_logic import answer_check, rounds_check
+from brain_games.games.brain_games_logic import ROUNDS_MAX_NUMBER
+from brain_games.games.brain_gcd_logic import game_body, game_condition
 
 
 def main():
@@ -8,9 +11,8 @@ def main():
     game_condition()
     i = 0
     while i <= (ROUNDS_MAX_NUMBER - 1):
-        (answer, right_answer, answer_for_comparing, mirror_answer) = game_body()
-        i = answer_check(answer, right_answer, answer_for_comparing, mirror_answer, i)
-    # Check program
+        (answer, right_ans, answer_for_comp, mirror_ans) = game_body()
+        i = answer_check(answer, right_ans, answer_for_comp, mirror_ans, i)
     rounds_check(i, name)
 
 

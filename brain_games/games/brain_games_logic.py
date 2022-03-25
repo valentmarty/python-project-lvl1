@@ -1,5 +1,4 @@
 import prompt
-import random
 
 
 ROUNDS_MAX_NUMBER = 3
@@ -12,31 +11,13 @@ def welcome():
     return(name)
 
 
-def game_condition():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-
-
-def game_body():
-    random_number = random.randint(1, 100)
-    print('Question: ', random_number)
-    right_answer = random_number % 2
-    mirror_answer = right_answer
-    answer = prompt.string('Your answer: ')
-    if answer == 'yes':
-        answer_for_comparing = 0
-        mirror_answer = 'no'
-    elif answer == 'no':
-        answer_for_comparing = 1
-        mirror_answer = 'yes'
-    return(answer, right_answer, answer_for_comparing, mirror_answer)
-
-
-def answer_check(answer, right_answer, answer_for_comparing, mirror_answer, i):
-    if right_answer == answer_for_comparing:
+def answer_check(answer, right_ans, answer_for_comp, mirror_ans, i):
+    if right_ans == answer_for_comp:
         print('Correct!')
         i = i + 1
     else:
-        print("'" + answer + "' is wrong answer ;(. Correct answer was '" + mirror_answer + "'.")
+        print_text = "' is wrong answer ;(. Correct answer was '"
+        print("'" + answer + print_text + mirror_ans + "'.")
         i = 404
     return(i)
 
