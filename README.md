@@ -8,11 +8,15 @@ If you successfully answer 3 questions, you win. Otherwise, you will be prompted
 
 Brain-even asciinema:
 https://asciinema.org/a/6FZGyrm92SncE1hXcQdlejrIl
+
 Brain-calc asciinema:
 https://asciinema.org/a/DsWCArZRW2m9l5LUVr8LetYby
+
 Brain-gcd asciinema:
 https://asciinema.org/a/lahswj4uZIQb6IE9oyfYJpDJ6
+
 Brain-progression asciinema:
  https://asciinema.org/a/W1tRcb19VO88awB6VixinglXk
+ 
 Brain-prime asciinema: 
  https://asciinema.org/a/d6wvXmbjUHBSdFxChmMKcXTdF
